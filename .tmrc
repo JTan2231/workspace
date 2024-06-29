@@ -1,0 +1,3 @@
+recall ~/rust/recall ~/.bashrc
+ritual-web ~/js/ritual/ ~/.bashrc
+ritual-api ~/python/ritual ~/python/ritual/env.sh
