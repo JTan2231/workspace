@@ -4,4 +4,4 @@ git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HO
 cp init.lua ~/.config/nvim
 
 sudo cp ./tm /usr/local/bin/tm
-cp ./tmrc ~/.tmrc
+cp .tmrc ~/.tmrc
