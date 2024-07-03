@@ -23,6 +23,8 @@ for i in "${!session_names[@]}"; do
 	tmux send-keys -t ${session_names[$i]}:0.1 "cd ${working_dirs[$i]}" C-m
 	tmux send-keys -t ${session_names[$i]}:0.0 "source ${env_scripts[$i]}" C-m
 	tmux send-keys -t ${session_names[$i]}:0.1 "source ${env_scripts[$i]}" C-m
+	tmux send-keys -t ${session_names[$i]}:0.0 "clear" C-m
+	tmux send-keys -t ${session_names[$i]}:0.1 "clear" C-m
 	tmux attach-session -t ${session_names[$i]}
 
 	found=1
